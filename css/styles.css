@@ -10,14 +10,50 @@ body {
 
 }
 
+/*Typography
+ ========================================================================== */
+
+p,
+h1,
+div {
+    font-family: 'Outfit', sans-serif;
+}
+
+h1{
+    font-size: 0.85rem;
+    color: var(--dark-blue);
+    font-weight: bold;
+    border: 2px solid red;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--grayish-blue);
+}
+
+/*QR Card
+ ========================================================================== */
+
 section.qr-card {
     margin: 0 auto;
     width: 400px;
     background-color: var(--white);
     text-align: center;
+    border-radius: 25px;
+    margin-top: 10%;
 }
 
 section img.qr-card-img {
     width: 90%;
-    border-radius: 20px;
+    border-radius: 15px;
+    margin-top: 5%;
+}
+
+/*Footer
+ ========================================================================== */
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
 }
