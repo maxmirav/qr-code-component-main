@@ -48,7 +48,7 @@ section.qr-card {
 .text-container {
     width: 80%;
     margin: 0 auto;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 
 section img.qr-card-img {
@@ -60,5 +60,6 @@ section img.qr-card-img {
 /*Footer
  ========================================================================== */
 footer {
+    margin-top: 50px;
     width: 100%;
 }
